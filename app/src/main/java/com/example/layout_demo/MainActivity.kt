@@ -10,6 +10,7 @@ import androidx.compose.material.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.tooling.preview.Preview
+import com.example.layout_demo.ui.layout.ShapeDemo
 import com.example.layout_demo.ui.layout.WeixinDemo
 import com.example.layout_demo.ui.theme.Layout_demoTheme
 
@@ -17,7 +18,8 @@ class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContent {
-           WeixinDemo(this)
+//           WeixinDemo(this)
+            ShapeDemo()
         }
     }
 }
